@@ -1,0 +1,38 @@
+body {
+  padding: 50px;
+  color: rgb(30, 115, 190);
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#container{
+  width: 100%
+
+}
+
+.joke-image{
+  display:block;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.joke-text{
+  background: rgba(0, 0, 0, .7);
+  background-clip: border-box;
+  width: 96%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  padding: 2%
+}
+
+.grid-item {
+  position: relative;
+  width: 500px;
+  float: left;
+  /*border: 2px solid hsla(0, 0%, 0%, 0.5);*/
+}
